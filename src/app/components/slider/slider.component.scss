@@ -1,0 +1,24 @@
+// .carousel-container {
+//     position: relative;
+//     margin: auto;
+//     text-align: center;
+//     width: 700px;
+//     border-radius: 15px;
+//     box-shadow: 0 6px 12px #dce1e1;
+// }
+.slider-height {
+    height: 85vh;
+}
+
+.space {
+    width: 4px;
+    height: auto;
+    display: inline-block;
+  }
+
+.carousel-caption {
+    position: absolute;
+    top: 14rem;
+    text-align: left;
+    margin-left: -56px;
+ }

@@ -11,9 +11,13 @@ import { MatIconModule } from '@angular/material/icon';
 import { ToolbarComponent } from './components/toolbar/toolbar.component';
 import { SliderComponent } from './components/slider/slider.component';
 import { HomeComponent } from './components/home/home.component';
+import { CarouselModule } from 'ngx-owl-carousel-o';
+import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
+import { ServicepageComponent } from './components/servicepage/servicepage.component';
+import { TestimonialComponent } from './components/testimonial/testimonial.component';
 
 @NgModule({
-  declarations: [AppComponent, ToolbarComponent, SliderComponent, HomeComponent],
+  declarations: [AppComponent, ToolbarComponent, SliderComponent, HomeComponent, ServicepageComponent, TestimonialComponent],
   imports: [
     NgbModule,
     BrowserModule,
@@ -21,6 +25,8 @@ import { HomeComponent } from './components/home/home.component';
     MatButtonModule,
     MatToolbarModule,
     AppRoutingModule,
+    CarouselModule,
+    FontAwesomeModule,
     BrowserAnimationsModule,
   ],
   providers: [],
